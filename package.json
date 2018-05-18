@@ -1,6 +1,6 @@
 {
   "name": "svg-to-symbol-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack loader JUST to transform SVG files to symobl strings, then you can freely handle them.",
   "license": "MIT",
   "main": "src/index.js",
