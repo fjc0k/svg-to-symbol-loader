@@ -1,4 +1,4 @@
-# svg-to-symbol-loader [![Travis](https://travis-ci.org/fjc0k/svg-to-symbol-loader.svg?branch=master)](https://travis-ci.org/fjc0k/svg-to-symbol-loader) [![codecov](https://codecov.io/gh/fjc0k/svg-to-symbol-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/fjc0k/svg-to-symbol-loader)
+# svg-to-symbol-loader [![Travis](https://travis-ci.org/fjc0k/svg-to-symbol-loader.svg?branch=master)](https://travis-ci.org/fjc0k/svg-to-symbol-loader)
 
 A webpack loader JUST to transform SVG files to symobl strings, then you can freely handle them.
 
