@@ -1,0 +1,63 @@
+{
+  "name": "svg-to-symbol-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader JUST to transform SVG files to symobl strings, then you can freely handle them.",
+  "license": "MIT",
+  "main": "src/index.js",
+  "homepage": "https://github.com/fjc0k/svg-to-symbol-loader",
+  "author": {
+    "name": "fjc0k",
+    "email": "fjc0kb@gmail.com",
+    "url": "https://github.com/fjc0k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fjc0k/svg-to-symbol-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fjc0k/svg-to-symbol-loader/issues"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "svg",
+    "symbol",
+    "icon"
+  ],
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "release": "standard-version -a",
+    "postrelease": "git push --follow-tags origin master && npm publish"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@fir-ui/fir"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@fir-ui/eslint-config-fir": "^0.3.2",
+    "codecov": "^3.0.0",
+    "eslint": "^4.19.1",
+    "husky": "^1.0.0-rc.4",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.1.0",
+    "standard-version": "^4.3.0",
+    "webpack": "^4.8.3"
+  },
+  "dependencies": {
+    "svgo": "^1.0.5"
+  }
+}
