@@ -58,7 +58,7 @@ The default export just likes:
 
 - __extractId__
   - Type: `({ name }) => id`
-  - Default: `({ name }) => name`
+  - Default: `({ filePath, name }) => name`
   - Desc: Use the function to custom symbol id. The `name` is the SVG filename without the extension. e.g.
 
 ```js
@@ -78,5 +78,5 @@ import add from './svg/add.svg'
 
 - __svgo__
   - Type: `Object`
-  - Default: [See here](./src/defaultSVGOOptions.js)
+  - Default: [See here](./src/defaultSVGOPlugins.js)
   - Desc: The [svgo](https://github.com/svg/svgo) plugins.
