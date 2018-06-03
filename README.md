@@ -4,6 +4,8 @@ A webpack loader JUST to transform SVG files to symobl strings, then you can fre
 
 __JUST SUPPORT WEBPACK 4.__
 
+Rollup version: [fjc0k/svg-to-symbol-loader](https://github.com/fjc0k/rollup-plugin-svg-to-symbol)
+
 ## Install
 
 ```bash
