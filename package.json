@@ -36,28 +36,17 @@
     "root": true,
     "extends": "@fir-ui/fir"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "devDependencies": {
-    "@fir-ui/eslint-config-fir": "^0.3.2",
+    "@fir-ui/eslint-config-fir": "^0.50.4",
     "codecov": "^3.0.0",
     "eslint": "^4.19.1",
-    "husky": "^1.0.0-rc.4",
-    "jest": "^22.4.3",
-    "lint-staged": "^7.1.0",
-    "standard-version": "^4.3.0",
-    "webpack": "^4.8.3"
+    "husky": "^1.0.0-rc.8",
+    "jest": "^23.1.0",
+    "standard-version": "^4.4.0",
+    "webpack": "^4.10.2"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "svgo": "^1.0.5"
   }
 }
